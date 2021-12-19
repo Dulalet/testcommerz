@@ -1,3 +1,12 @@
+Запуск: 
+- 
+docker build -t backend .
+
+docker-compose up
+
+URL:
+-
+
 - admin/ - Админ панель
 
 - employees/ - список всех сотрудников. Поиск и сортировка доступны через интерфейс DRF и через параметры (например, /employees/?ordering=name&search=natural)
